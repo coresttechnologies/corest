@@ -1,0 +1,105 @@
+.Header{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    background-color: #000003;
+    width: 100%;
+    justify-content: space-between;
+}
+.Header-Logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Header-Navigation{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.Header-Navigation ul li{
+    list-style: none;
+    font-weight: 500;
+}
+.Header-Navigation ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mobileMenu{
+    display: none;
+}
+.Header-Navigation a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+
+}
+.Header-Logo{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+}
+.Header-Logo img{
+    width: 20%;
+    height: 50%;
+    margin-left: 32px;
+}
+@media(max-width:767px){
+    .Header-Navigation{
+        width: 100%;
+        display:none;
+    }
+    .Header-Logo{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+    .Header-Logo img{
+        width: 100%;
+        margin-left: 32px;
+        height: 60%;
+    }
+    .mobileMenu{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 32px;
+    }
+}
+@media(min-width:768px)and (max-width: 1367px){
+    .Header-Navigation{
+        width: 100%;
+        display:none;
+    }
+    .Header-Logo{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+    .Header-Logo img{
+        width: 35%;
+        margin-left: 32px;
+        height: 60%;
+    }
+    .mobileMenu{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 32px;
+    }
+}

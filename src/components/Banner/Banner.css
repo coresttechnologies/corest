@@ -1,0 +1,624 @@
+body{
+    background-color: #101010;;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.firstBanner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:#101010;;
+    color: white;
+
+
+}
+.bannerContents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.bannerImage{
+    max-width: 635px;
+    max-height: 565px;
+}
+.bannerImage img{
+    margin-top:135px;
+    width: 100%;
+    height: 100%;
+}
+.bannerDetails{
+    margin-top:18%;
+}
+.bannerDetails h1{
+    font-size: 63px;
+    font-weight: bold;
+    width: 80%;
+    line-height: 64px;
+}
+.testimonials{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bannerDetails button{
+    background-color: #6600cc;
+    width: 150px;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#fff;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.tab{
+    width: 25%;
+   padding-bottom: 50px;
+}
+.tab h4{
+    font-size: 22px;
+}
+.tab p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 24px;
+    font-weight: 300;
+
+}
+.servicesDiv{
+    position: absolute;
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 58%;
+    bottom:0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 50px;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+
+   
+}
+
+.services{
+    background-color: #101010;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    width: 80%;
+}
+.servicesTabs{
+    width: 75%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #262525;
+    margin: 20px;
+}
+.servicesTabs h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.ourServiceTitle{
+    margin-top: 75px;
+    font-size: 40px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+
+}
+.aboutImage{
+    width: 40%;
+}
+.aboutImage img{
+    width: 80%;
+}
+.aboutContents{
+    width: 50%;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutContents h1{
+    font-size: 40px;
+    font-weight: bolder;
+    width: 80%;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.aboutContents h4{
+    font-weight: 400;
+    font-size: 15px;
+    width: 75%;
+
+}
+.aboutContents button{
+    width: 150px;
+    height: 40px;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #6600cc;
+    color: #fff;
+    outline: none;
+    border:none;
+    border-radius:2px;
+    margin-top: 30px;
+}
+.Counters{
+    width: 90%;
+    background-color: #505050;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 321px;
+    align-items: center;
+    border:rgba(255, 255, 255, 0.5) solid 1px;
+}
+.CounterTab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.CounterTab h1{
+    font-size: 50px;
+    font-weight: 800;
+    color:#6700CD;
+}
+.CounterTab p{
+    margin-left: 15px;
+    font-size: 20px;
+    width: 40%;
+}
+.leadership{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leadershipContents{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+}
+.leftContent{
+    width: 35%;
+    padding: 125px;
+    padding-top: 125px;
+    padding-right: 50px;
+}
+.leftContent h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+.leftContent p{
+    line-height: 1.8;
+}
+.firstParagraph{
+    margin-bottom: 35px;
+}
+.imageContent{
+    width: 30%;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+.imageContent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rightContent1{
+    margin-top: 255px;
+}
+.rightContent{
+    width: 35%;
+    
+    padding: 125px;
+    padding-right: 0;
+    padding-left: 50px;
+}
+.rightContent p{
+    font-weight: 500;
+    width: 100%;
+    line-height: 1.8;
+    font-size: 23px;
+}
+.rightContent .credits .creditsDetails{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.leadership2{
+    margin-top: 100px;
+}
+.rightContent .credits .creditsDetails h1{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.rightContent .credits .creditsDetails p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.rightContent .credits{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.rightContent .credits img{
+    width: 10%;
+    border-radius:100%;
+    height: 15%;
+    margin-bottom: 0;
+
+}
+.ourWorksTitle{
+    margin-top: 75px;
+}
+.leftContentTitleMb{
+    display: none;
+}
+.projects{
+    width: 100vw;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:50px;
+    margin-bottom: 500px;
+    flex-direction: row;
+    justify-content: center;
+}
+.work{
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    background-position:top;
+    transition: ease-in-out 8s;
+    background-color: #000;
+}
+.work1{
+    background:url('../../images/rtacades.png');
+    background-size:cover;
+    
+}
+.work2{
+    background:url('../../images/bkart.png');
+    background-size:cover;
+    
+}
+.work3{
+    background:url('../../images/fourcess.png');
+    background-size:cover;
+    
+}
+.work4{
+    background:url('../../images/finzobussiness.png');
+    background-size:cover;
+    
+}
+.works:hover{
+    background-position: bottom;
+}
+
+.projects{
+    width: 100%;
+}
+/* .projects{
+    display: block;
+	width: 300px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid #b3b3b3;
+	border-radius: 1px;
+	margin: 0 auto;
+}
+.projects img{
+    bottom: -1210px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+    margin:0;
+    padding:0;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+}
+.projects img:hover{
+    bottom: 0;
+  -webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+  transition: all 11s;
+} */
+
+.rightContent img{
+    width: 400px;
+    height: 250ox;
+    margin-bottom: 50px;
+}
+@media (max-width: 768px){
+    .firstBanner{
+        height: 75vh;
+    }
+    .bannerContents{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .bannerDetails{
+        width: 80%;
+    }
+    .bannerDetails h1{
+        font-size: 35px;
+        width: 100%;
+        line-height: 40px
+    }
+    .bannerImage{
+        display: none;
+    }
+    .servicesDiv{
+        display: none;
+    }
+    .bannerDetails button{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .tab{
+        display: none;
+    }
+    .ourServiceTitle{
+        font-size: 30px;
+    }
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+    .servicesTabs{
+        height: 200px;
+    }
+    .servicesTabs h1{
+        font-size: 16px;
+    }
+    .servicesTabs img{
+        width: 30%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .aboutImage{
+        width: 60%;
+        margin-top: 100px;
+    }
+    .aboutImage img{
+        width: 100%;
+    }
+    .aboutContents h1{
+        font-size: 30px;
+        line-height: 35px;
+        width: 100%;
+        font-weight: bold;
+    }
+    .aboutContents h4{
+        width: 100%;
+        font-size: 12px;
+    }
+    .aboutContents{
+        width: 85%;
+    }
+    .Counters{
+        flex-direction: column;
+        margin-top: 150px;
+
+    }
+    .CounterTab{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .CounterTab h1{
+        font-size: 35px;
+        
+    }
+    .CounterTab p{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .leadership{
+        width: 100%;
+        margin-top: 150px;
+    }
+    .leadershipContents{
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+    }
+    .imageContent{
+        padding: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .imageContent img{
+        width: 100%;
+    }
+    .leftContent{
+        width: 90%;
+        padding: 0;
+    }
+    .leftContent p{
+        font-size: 14px;
+    }
+    .rightContent{
+        width: 90%;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    .leftContentTitle{
+        display: none;
+    }
+    .leftContentTitleMb{
+        margin-left: 20px;
+
+    }
+    .rightContent img{
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .credits{
+        align-items:center;
+        height: auto;
+        
+    }
+    .rightContent .credits .creditsDetails h1{
+        font-size: 12px;
+    }
+    .rightContent .credits .creditsDetails p{
+        font-size: 12px;
+    }
+    .credits img{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .rightContent p{
+        font-size: 18px;
+    }
+    .projects{
+        width: 100%;
+        grid-template-columns: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+    .testimonialsttitle{
+        margin-bottom: 125px;
+    }
+}
+@media(min-width:768px)and (max-width: 1367px){
+    .bannerDetails h1{
+        font-size: 55px;
+        width: 100%;
+        line-height: 55px
+    }
+    .testimonialsttitle{
+        margin-bottom: 125px;
+    }
+    .testimonials{
+        width: 85%;
+    }
+    .bannerDetails button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .ourServiceTitle{
+        font-size: 45px;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .servicesTabs{
+        width: 100%;
+    }
+    .aboutContents h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .aboutContents h4{
+        font-size: 20px;
+        line-height:35px;
+    }
+    .aboutContents button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .Counters{
+        display: grid;
+        grid-template-columns: auto auto;
+        z-index: -99;
+        backdrop-filter: none;
+    }
+    .CounterTab{
+        z-index: 99;
+    }
+    /* .leftContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    } */
+    .leftContent p{
+        font-size: 20px;
+        /* width: 40%; */
+    }
+    .rightContent p{
+        font-size: 27px;
+    }
+    .rightContent .credits .creditsDetails h1{
+        font-size: 18px;
+    }
+    .rightContent .credits .creditsDetails p{
+        font-size: 15px;
+    }
+    .projects{
+        grid-template-columns: auto auto;
+    }
+    .work{
+        height: 400px;
+        width: 300px;
+    }
+}

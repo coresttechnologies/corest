@@ -1,0 +1,231 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FooterSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #1B1B1B;
+    height: 450px;
+}
+.FooterSiteTitle{
+    font-size: 40px;
+    margin-bottom: 75px;
+}
+.address,.mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mail{
+    margin-top: 50px;
+}
+.address p,.mail p{
+    width: 275px;
+    margin-left: 10px;
+}
+.FooterMenu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.FooterMenu ul li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+.enquiry{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.enquiry button{
+    margin-left: 30px;
+    width: 125px;
+    height: 40px;
+    background:none;
+    outline:none;
+    color:#fff;
+    border: 3px solid #6700CD;
+}
+.enquiry h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.icons a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 120px;
+}
+.icons .fa-brands{
+    padding: 15px;
+    border-radius:50%;
+    font-size: 30px;
+    border:2px solid #B27DEF;
+    transition: all 0.3s ease-in-out;
+}
+.icons .fa-brands:hover{
+    background-color: #fff;
+    color:#B27DEF;
+    border-radius: 50%;
+    
+}
+.Copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    height: 100px;
+    background-color: #000000;
+}
+@media(max-width:767px){
+    .FooterSection{
+        flex-direction: column;
+        height: 100%;
+    }
+    .FooterSiteTitle{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .address p, .mail p{
+        font-size: 14px;
+    }
+    .mail{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .FooterMenu{
+        width: 100%;
+    }
+    .FooterMenu ul{
+        align-items: flex-start;
+        margin-left: 32px;
+        margin-top: 30px;
+    }
+    .icons{
+        width: 60%;
+        margin-left: 32px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .icons .fa-brands{
+        padding: 10px;
+        font-size: 15px;
+
+    }
+    .enquiry{
+        margin-bottom: 50px;
+    }
+    .enquiry h1{
+        font-size: 30px;
+    }
+    .enquiry button{
+        width: 125px;
+        height: 40px;
+        font-size: 12px;
+        border :1px solid #6700CD;
+    }
+    .Copyright{
+        flex-direction: row;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Copyright p{
+        font-size: 13px;
+    }
+}
+@media(min-width:768px)and (max-width: 1367px){
+    .FooterSection{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .FooterAbout{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 32px;
+    }
+    .socialMedia{
+        margin-right: 32px;
+    }
+    .FooterSiteTitle{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .address p, .mail p{
+        font-size: 14px;
+    }
+    .mail{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .FooterMenu{
+        width: 100%;
+        align-items:flex-start;
+
+    }
+    .FooterMenu ul{
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+    .icons{
+        width: 60%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .icons .fa-brands{
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 10px;
+
+    }
+    .enquiry{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .enquiry h1{
+        font-size: 30px;
+    }
+    .enquiry button{
+        width: 125px;
+        margin-top: 15px;
+        height: 40px;
+        font-size: 12px;
+        margin-left: 0;
+        border :1px solid #6700CD;
+    }
+    .Copyright{
+        flex-direction: row;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Copyright p{
+        font-size: 13px;
+    }
+}
